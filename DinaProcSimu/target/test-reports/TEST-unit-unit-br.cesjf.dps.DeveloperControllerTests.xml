@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="5" hostname="NOTE-FBJF011" name="br.cesjf.dps.DeveloperControllerTests" tests="8" time="4.599" timestamp="2013-05-03T16:29:48">
+  <properties />
+  <testcase classname="br.cesjf.dps.DeveloperControllerTests" name="testSave" time="2.598">
+    <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/developer/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@585b045d&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/developer/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@585b045d
+
+	at br.cesjf.dps.DeveloperControllerTests.testSave(DeveloperControllerTests.groovy:48)
+</failure>
+  </testcase>
+  <testcase classname="br.cesjf.dps.DeveloperControllerTests" name="testUpdate" time="0.622">
+    <failure message="Assertion failed: &#xa;&#xa;assert developer.save() != null&#xa;       |         |      |&#xa;       |         null   false&#xa;       br.cesjf.dps.Developer : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert developer.save() != null
+       |         |      |
+       |         null   false
+       br.cesjf.dps.Developer : (unsaved)
+
+	at br.cesjf.dps.DeveloperControllerTests.testUpdate(DeveloperControllerTests.groovy:100)
+</failure>
+  </testcase>
+  <testcase classname="br.cesjf.dps.DeveloperControllerTests" name="testDelete" time="0.111">
+    <failure message="Assertion failed: &#xa;&#xa;assert developer.save() != null&#xa;       |         |      |&#xa;       |         null   false&#xa;       br.cesjf.dps.Developer : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert developer.save() != null
+       |         |      |
+       |         null   false
+       br.cesjf.dps.Developer : (unsaved)
+
+	at br.cesjf.dps.DeveloperControllerTests.testDelete(DeveloperControllerTests.groovy:144)
+</failure>
+  </testcase>
+  <testcase classname="br.cesjf.dps.DeveloperControllerTests" name="testCreate" time="0.098" />
+  <testcase classname="br.cesjf.dps.DeveloperControllerTests" name="testEdit" time="0.095">
+    <failure message="Assertion failed: &#xa;&#xa;assert developer.save() != null&#xa;       |         |      |&#xa;       |         null   false&#xa;       br.cesjf.dps.Developer : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert developer.save() != null
+       |         |      |
+       |         null   false
+       br.cesjf.dps.Developer : (unsaved)
+
+	at br.cesjf.dps.DeveloperControllerTests.testEdit(DeveloperControllerTests.groovy:80)
+</failure>
+  </testcase>
+  <testcase classname="br.cesjf.dps.DeveloperControllerTests" name="testShow" time="0.094">
+    <failure message="Assertion failed: &#xa;&#xa;assert developer.save() != null&#xa;       |         |      |&#xa;       |         null   false&#xa;       br.cesjf.dps.Developer : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert developer.save() != null
+       |         |      |
+       |         null   false
+       br.cesjf.dps.Developer : (unsaved)
+
+	at br.cesjf.dps.DeveloperControllerTests.testShow(DeveloperControllerTests.groovy:62)
+</failure>
+  </testcase>
+  <testcase classname="br.cesjf.dps.DeveloperControllerTests" name="testIndex" time="0.091" />
+  <testcase classname="br.cesjf.dps.DeveloperControllerTests" name="testList" time="0.76" />
+  <system-out><![CDATA[--Output from testSave--
+--Output from testUpdate--
+--Output from testDelete--
+--Output from testCreate--
+--Output from testEdit--
+--Output from testShow--
+--Output from testIndex--
+--Output from testList--
+]]></system-out>
+  <system-err><![CDATA[--Output from testSave--
+--Output from testUpdate--
+--Output from testDelete--
+--Output from testCreate--
+--Output from testEdit--
+--Output from testShow--
+--Output from testIndex--
+--Output from testList--
+]]></system-err>
+</testsuite>

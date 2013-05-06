@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="1" hostname="NOTE-FBJF011" name="br.cesjf.tasks.TaskTests" tests="1" time="0.075" timestamp="2013-05-03T16:29:55">
+  <properties />
+  <testcase classname="br.cesjf.tasks.TaskTests" name="testSomething" time="0.071">
+    <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at br.cesjf.tasks.TaskTests.testSomething(TaskTests.groovy:17)
+</failure>
+  </testcase>
+  <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+  <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+</testsuite>

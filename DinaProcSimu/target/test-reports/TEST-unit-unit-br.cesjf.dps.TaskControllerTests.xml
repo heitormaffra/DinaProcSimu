@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="5" hostname="NOTE-FBJF011" name="br.cesjf.dps.TaskControllerTests" tests="8" time="1.47" timestamp="2013-05-03T16:29:53">
+  <properties />
+  <testcase classname="br.cesjf.dps.TaskControllerTests" name="testSave" time="0.326">
+    <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/task/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@766f3ace&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/task/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@766f3ace
+
+	at br.cesjf.dps.TaskControllerTests.testSave(TaskControllerTests.groovy:48)
+</failure>
+  </testcase>
+  <testcase classname="br.cesjf.dps.TaskControllerTests" name="testUpdate" time="0.142">
+    <failure message="Assertion failed: &#xa;&#xa;assert task.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       br.cesjf.dps.Task : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert task.save() != null
+       |    |      |
+       |    null   false
+       br.cesjf.dps.Task : (unsaved)
+
+	at br.cesjf.dps.TaskControllerTests.testUpdate(TaskControllerTests.groovy:100)
+</failure>
+  </testcase>
+  <testcase classname="br.cesjf.dps.TaskControllerTests" name="testDelete" time="0.476">
+    <failure message="Assertion failed: &#xa;&#xa;assert task.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       br.cesjf.dps.Task : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert task.save() != null
+       |    |      |
+       |    null   false
+       br.cesjf.dps.Task : (unsaved)
+
+	at br.cesjf.dps.TaskControllerTests.testDelete(TaskControllerTests.groovy:144)
+</failure>
+  </testcase>
+  <testcase classname="br.cesjf.dps.TaskControllerTests" name="testCreate" time="0.097" />
+  <testcase classname="br.cesjf.dps.TaskControllerTests" name="testEdit" time="0.083">
+    <failure message="Assertion failed: &#xa;&#xa;assert task.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       br.cesjf.dps.Task : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert task.save() != null
+       |    |      |
+       |    null   false
+       br.cesjf.dps.Task : (unsaved)
+
+	at br.cesjf.dps.TaskControllerTests.testEdit(TaskControllerTests.groovy:80)
+</failure>
+  </testcase>
+  <testcase classname="br.cesjf.dps.TaskControllerTests" name="testShow" time="0.071">
+    <failure message="Assertion failed: &#xa;&#xa;assert task.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       br.cesjf.dps.Task : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert task.save() != null
+       |    |      |
+       |    null   false
+       br.cesjf.dps.Task : (unsaved)
+
+	at br.cesjf.dps.TaskControllerTests.testShow(TaskControllerTests.groovy:62)
+</failure>
+  </testcase>
+  <testcase classname="br.cesjf.dps.TaskControllerTests" name="testIndex" time="0.08" />
+  <testcase classname="br.cesjf.dps.TaskControllerTests" name="testList" time="0.078" />
+  <system-out><![CDATA[--Output from testSave--
+--Output from testUpdate--
+--Output from testDelete--
+--Output from testCreate--
+--Output from testEdit--
+--Output from testShow--
+--Output from testIndex--
+--Output from testList--
+]]></system-out>
+  <system-err><![CDATA[--Output from testSave--
+--Output from testUpdate--
+--Output from testDelete--
+--Output from testCreate--
+--Output from testEdit--
+--Output from testShow--
+--Output from testIndex--
+--Output from testList--
+]]></system-err>
+</testsuite>
