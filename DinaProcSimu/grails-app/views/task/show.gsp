@@ -36,7 +36,7 @@
 				<li class="fieldcontain">
 					<span id="parentTask-label" class="property-label"><g:message code="task.parentTask.label" default="Parent Task" /></span>
 					
-						<span class="property-value" aria-labelledby="parentTask-label"><g:link controller="task" action="show" id="${taskInstance?.parentTask?.id}">${taskInstance?.parentTask?.encodeAsHTML()}</g:link></span>
+						<span class="property-value" aria-labelledby="parentTask-label"><g:link controller="task" action="show" id="${taskInstance?.parentTask?.id}">${taskInstance?.parentTask?.name}</g:link></span>
 					
 				</li>
 				</g:if>
@@ -46,7 +46,7 @@
 					<span id="developers-label" class="property-label"><g:message code="task.developers.label" default="Developers" /></span>
 					
 						<g:each in="${taskInstance.developers}" var="d">
-						<span class="property-value" aria-labelledby="developers-label"><g:link controller="developer" action="show" id="${d.id}">${d?.encodeAsHTML()}</g:link></span>
+						<span class="property-value" aria-labelledby="developers-label"><g:link controller="developer" action="show" id="${d.id}">${d?.name}</g:link></span>
 						</g:each>
 					
 				</li>

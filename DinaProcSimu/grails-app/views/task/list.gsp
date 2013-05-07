@@ -24,9 +24,9 @@
 				<thead>
 					<tr>
 					
-						<g:sortableColumn property="name" title="${message(code: 'task.name.label', default: 'Name')}" />
+						<g:sortableColumn property="name" title="${message(code: 'task.name.label', default: 'Tarefa')}" />
 					
-						<th><g:message code="task.parentTask.label" default="Parent Task" /></th>
+						<th><g:message code="task.parentTask.label" default="Tarefa Pai" /></th>
 					
 					</tr>
 				</thead>
@@ -34,9 +34,11 @@
 				<g:each in="${taskInstanceList}" status="i" var="taskInstance">
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 					
-						<td><g:link action="show" id="${taskInstance.id}">${fieldValue(bean: taskInstance, field: "name")}</g:link></td>
+						<td>
+                                                  <g:link action="show" id="${taskInstance.id}">${fieldValue(bean: taskInstance, field: "name")}</g:link>
+                                                </td>
 					
-						<td>${fieldValue(bean: taskInstance, field: "parentTask")}</td>
+						<td>${fieldValue(bean: taskInstance, field: "parentTask.name")}</td>
 					
 					</tr>
 				</g:each>

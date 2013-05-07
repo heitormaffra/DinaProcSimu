@@ -25,7 +25,7 @@
 			
 				<g:if test="${developerInstance?.name}">
 				<li class="fieldcontain">
-					<span id="name-label" class="property-label"><g:message code="developer.name.label" default="Name" /></span>
+					<span id="name-label" class="property-label"><g:message code="developer.name.label" default="Tarefa" /></span>
 					
 						<span class="property-value" aria-labelledby="name-label"><g:fieldValue bean="${developerInstance}" field="name"/></span>
 					
