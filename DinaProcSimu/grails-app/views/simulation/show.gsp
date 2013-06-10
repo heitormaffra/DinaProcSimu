@@ -32,6 +32,15 @@
 				</li>
 				</g:if>
 			
+				<g:if test="${simulationInstance?.timeToConclude}">
+				<li class="fieldcontain">
+					<span id="timeToConclude-label" class="property-label"><g:message code="simulation.timeToConclude.label" default="Time To Conclude" /></span>
+					
+						<span class="property-value" aria-labelledby="timeToConclude-label"><g:fieldValue bean="${simulationInstance}" field="timeToConclude"/></span>
+					
+				</li>
+				</g:if>
+			
 			</ol>
 			<g:form>
 				<fieldset class="buttons">

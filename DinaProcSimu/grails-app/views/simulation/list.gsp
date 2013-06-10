@@ -26,6 +26,8 @@
 					
 						<g:sortableColumn property="file" title="${message(code: 'simulation.file.label', default: 'File')}" />
 					
+						<g:sortableColumn property="timeToConclude" title="${message(code: 'simulation.timeToConclude.label', default: 'Time To Conclude')}" />
+					
 					</tr>
 				</thead>
 				<tbody>
@@ -33,6 +35,8 @@
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 					
 						<td><g:link action="show" id="${simulationInstance.id}">${fieldValue(bean: simulationInstance, field: "file")}</g:link></td>
+					
+						<td>${fieldValue(bean: simulationInstance, field: "timeToConclude")}</td>
 					
 					</tr>
 				</g:each>

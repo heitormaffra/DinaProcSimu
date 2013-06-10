@@ -29,6 +29,19 @@ grails.mime.types = [
     xml:           ['text/xml', 'application/xml']
 ]
 
+fileuploader {
+    avatar {
+        maxSize = 1024 * 256 //256 kbytes
+        allowedExtensions = ["jpg","jpeg","gif","png"]
+        path = "/tmp/avatar/"
+    }
+    docs {
+        maxSize = 1000 * 1024 * 4 //4 mbytes
+        allowedExtensions = ["doc", "docx", "pdf", "rtf", "xml", "jymmy", "jymm"]
+        path = "/tmp/docs/"
+    }
+}
+
 // URL Mapping Cache Max Size, defaults to 5000
 //grails.urlmapping.cache.maxsize = 1000
 
